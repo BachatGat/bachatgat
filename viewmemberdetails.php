@@ -48,28 +48,23 @@ include('session.php');
 				<div class="row">
 						<!-- Multiple Radios (inline) -->
 						<div class="form-group">
-						<label class="col-md-4 control-label  padding-10"></label>
-
-						<div class="col-md-2">    
-                <input id="mname" name="mname" type="text" placeholder="Member Name" class="form-control " required=""/>
-              </div>
-						<input type="submit" value="search" class="btn btn-primary btn-sm glyphicon glyphicon-search">
-						</div>
-						</div>
-						<div class="row">
-						<!-- Multiple Radios (inline) -->
-						<div class="form-group">
-							<label class="col-md-4 control-label margin-bottom:20" for="Dead">Member Status:</label>
+							<label class="col-md-4 control-label margin-bottom:20" for="Dead">Search by:</label>
 							<div class="col-md-2"> 
 							<select class="form-control" id="user_type">
-							<option>Active</option>
-							<option>Dead</option>
+							<option>Select</option>
+							<option>Bachatgat ID</option>
+							<option>Memeber ID</option>
 						</select> 
-								
-								
 							</div>
 						</div>
+					<label class="col-md-4 control-label  padding-10">ID:</label>
+						<div class="col-md-2">    
+                <input id="mid" name="mid" type="text" placeholder="ID" class="form-control " required=""/>
+              </div>
+						<button type="submit" value="search" class="btn btn-primary btn-sm glyphicon glyphicon-search"></button>
 						</div>
+						</div>
+						
 					
 
 						
