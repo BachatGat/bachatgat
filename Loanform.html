@@ -46,7 +46,7 @@
 						<div class="form-group">
 							<label class="control-label col-md-3 col-md-offset-2" for="Loan_Amount">Loan Amount:</label>
 							<div class="col-md-3">		
-								<input id="Loan_Amount" name="Loan_Amount" type="text" placeholder="Loan_Amount" class="form-control" required=""/>
+								<input id="Loan_Amount" name="Loan_Amount" type="text" onkeypress="return isNumberKey(event)" placeholder="Loan_Amount" class="form-control" required=""/>
 							</div>
 		
 						</div>
@@ -70,7 +70,7 @@
 						<div class="form-group">
 							<label class="control-label col-md-3 col-md-offset-2" for="Cheque_No.">Cheque No.:</label>
 							<div class="col-md-4">		
-								<input id="Cheque_No." name="Cheque_No." type="text" placeholder="Cheque_No." class="form-control" required=""/>
+								<input id="Cheque_No." name="Cheque_No." type="text" onkeypress="return isNumberKey(event)" placeholder="Cheque_No." class="form-control" required=""/>
 							</div>
 		
 						</div>
