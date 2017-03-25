@@ -25,13 +25,12 @@ include('session.php');
     <div id="menucontainer">
       <div id="menunav">
         <ul>
-          <li><a href="home.php" ><span>Home</span></a></li>
-          <li><a href="viewmemberdetails.php"><span>View Bachat Gat</span></a></li>
-           <li><a href="openUpdate.php" ><span>Create Member</span></a></li>
-          <li><a href="#" ><span>View Members</span></a></li>
+         <li><a href="home.php"  ><span>Home</span></a></li>
+          <li><a href="bachatgatinfo.html"><span>View Bachat Gat</span></a></li>
+          <li><a href="openUpdate.php" ><span>Create Member</span></a></li>
+          <li><a href="viewmemberdetails.php" ><span>View Members</span></a></li>
           <li><a href="payment1.php" class="current"><span>Payments</span></a></li>
-          <li><a href="#"><span>About Us</span></a></li>
-          <li><a href="viewprofile.html"><span>Profile</span></a></li>
+         <li><a href="viewprofile.html"><span>Profile</span></a></li>
         </ul>
       </div>
     </div>
