@@ -1,0 +1,159 @@
+<html>
+<head>
+	<title>Janseva Parivar Swayam Sahayata Bachat Gat</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="/vendor/formvalidation/dist/js/formValidation.min.js"></script>
+	<script src="/vendor/formvalidation/dist/js/framework/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/account-opening-form.css"/>
+
+</head>
+<body>
+<div id="wrap">
+  <div id="masthead">
+    <h2>Janseva Parivar Bachat Gat</h2>
+
+    <div  align="right">
+      <b  id="welcome"> Welcome : <i><?php echo $login_session; ?></i></b>
+      <b id="logout"><a href="logout.php" > Log Out</a></b>
+    </div>
+  <div id="menucontainer">
+      <div id="menunav">
+        <ul>
+        <li><a href="home.php"  ><span>Home</span></a></li>
+          <li><a href="bachatgatinfo.html"><span>View Bachat Gat</span></a></li>
+          <li><a href="openUpdate.php" ><span>Create Member</span></a></li>
+          <li><a href="viewmemberdetails.php" ><span>View Members</span></a></li>
+          <li><a href="payment1.php" ><span>Payments</span></a></li>
+          <li><a href="#"><span>About Us</span></a></li>
+          <li><a href="viewprofile.html" class="current"><span>Profile</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+<form class="form-horizontal" action ="viewprofile.php" method="post">
+<div class="container padding-top-10">
+<div class="panel panel-default">
+				<div class="panel-heading">
+					Owner Details
+				</div>
+				<div class="panel-body">
+											<div class="form-group">
+							<label class="control-label col-md-2 col-md-offset-2" for="first_name">Full name :</label>
+							<div class="col-md-2">		
+								<input id="first_name" name="first_name" type="text" placeholder="First name" class="form-control " required=""/>
+							</div>
+							<div class="col-md-2">
+								<input id="middle_name" name="middle_name" type="text" placeholder="Middle Name" class="form-control " required="">
+							</div>
+							<div class="col-md-2">
+								<input id="last_name" name="last_name" type="text" placeholder="Last Name" class="form-control " required="">
+							</div>
+						</div>
+						
+					<div class="panel-body">
+					
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="add1">Address:</label>  
+								<div class="col-md-7">
+									<input id="add1" name="add1" type="text" placeholder="Address Line 1" class="form-control input-md margin-bottom" required=""></div>
+									<div class="col-md-7 col-md-offset-4">
+										<input id="add2" name="add2" type="text" placeholder="Address Line 2"" class="form-control input-md">
+									</div>
+
+								</div>
+							</div>
+								
+							<div class="row">
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="Taluka">Taluka:</label>  
+									<div class="col-md-2">
+										<input id="Taluka" name="Taluka" type="text" placeholder=" " class="form-control input-md" required="">
+
+									</div>
+
+									<label class="col-md-3 control-label" for="Pin_code">Pin Code:</label>  
+									<div class="col-md-2">
+										<input id="Pin_code" name="Pin_code" type="text" placeholder=" " class="form-control input-md" required="">
+
+									</div>
+
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="phone_number">Phone Number:</label>  
+									<div class="col-md-2">
+										<input id="phone_number" name="phone_number" type="tel" max="10" placeholder="Phone Number" class="form-control input-md" required="" >
+
+									</div>
+
+									<label class="col-md-3 control-label" for="Mobile_number">Mobile Number:</label>  
+									<div class="col-md-2">
+										<input id="Mobile_number" name="Mobile_number" type="tel" placeholder="Mobile Number" class="form-control input-md" required="">
+
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel-body">
+					
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="BGN">Bachatgat Name:</label>  
+								<div class="col-md-7">
+									<input id="BGN" name="BGN" type="text" placeholder="Bachatgat Name" class="form-control input-md margin-bottom" required=""></div>
+								</div>
+
+							</div>
+							
+							<div class="form-group">
+								<label class=" col-md-4 control-label  margin-bottom:20" for="">Bachatgat Creation Date:</label>
+
+								<div class="col-md-4">		
+									<input id="BCD" name="BCD" type="date"  class="form-control " required=""/>
+								</div>
+							</div>
+					
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="ACN">Aadhar Card No.:</label>  
+								<div class="col-md-7">
+									<input id="ACN" name="ACN" type="text" placeholder="Aadhar Card No." class="form-control input-md margin-bottom" required=""></div>
+								</div>
+
+							</div>
+							
+					
+							<div class="form-group">
+								<label class="col-md-4 control-label" for="PCN">Pan Card No.:</label>  
+								<div class="col-md-7">
+									<input id="PCN" name="PCN" type="text" placeholder="Pan Card No." class="form-control input-md margin-bottom" required=""></div>
+								</div>
+
+							</div>
+							
+
+
+							<div class="row">
+								<div class="form-group">
+									<div class="text-center">
+									<button class="btn btn-sn btn-primary " type="submit">
+									Update</button>
+											<button class="btn btn-sn btn-primary " type="submit">
+											OK</button>
+													<button class="btn btn-sn btn-primary " type="submit">
+													Cancel</button>
+									</div>
+								</div>
+							</div>	
+						
+				
+					</div>
+							</form>
+                                </body>
+                                </html>
+					
