@@ -32,6 +32,17 @@
 							</div>
 		
 						</div>
+						<script type="application/javascript">
+              					function isNumberKey(evt)
+              					{
+         						var charCode = (evt.which) ? evt.which : event.keyCode
+         						if (charCode > 31 && (charCode < 48 || charCode > 57))
+         						{
+            							return false;
+         						}
+         						return true;
+              					}
+          					</script>
 						<div class="form-group">
 							<label class="control-label col-md-3 col-md-offset-2" for="Loan_Amount">Loan Amount:</label>
 							<div class="col-md-3">		
