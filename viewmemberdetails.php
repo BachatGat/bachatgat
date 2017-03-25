@@ -4,14 +4,15 @@ include('session.php');
 <html>
 <head>
 	<title>View Member Details</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="/vendor/formvalidation/dist/js/formValidation.min.js"></script>
 	<script src="/vendor/formvalidation/dist/js/framework/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/account-opening-form.css"/>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
 </head>
 <body>
 
@@ -26,13 +27,12 @@ include('session.php');
   <div id="menucontainer">
       <div id="menunav">
         <ul>
-          <li><a href="home.php"  ><span>Home</span></a></li>
-          <li><a href="viewmemberdetails.php" class="current" "><span>View Bachat Gat</span></a></li>
-          <li><a href="openUpdate.html" ><span>Create Member</span></a></li>
-          <li><a href="#"><span>View Members</span></a></li>
+        <li><a href="home.php"  ><span>Home</span></a></li>
+          <li><a href="bachatgatinfo.html"><span>View Bachat Gat</span></a></li>
+          <li><a href="openUpdate.php" ><span>Create Member</span></a></li>
+          <li><a href="viewmemberdetails.php" class="current"><span>View Members</span></a></li>
           <li><a href="payment1.php" ><span>Payments</span></a></li>
-          <li><a href="#"><span>About Us</span></a></li>
-          <li><a href="#"><span>Profile</span></a></li>
+          <li><a href="viewprofile.html"><span>Profile</span></a></li>
         </ul>
       </div>
     </div>
@@ -75,6 +75,10 @@ include('session.php');
 						
 					</div>
 				
-				</form>
+				
 				
 				</div>
+</div>
+</form>
+</body>
+</html>
