@@ -176,13 +176,17 @@ include('session.php');
             </div>
      </div>
     
-
+<div class="row">
+								<div class="form-group">
+									<div class="text-center">
      <input type="submit" class="btn btn-primary" value="View Account Details" name="View Account"> </input>
      <input type="submit" class="btn btn-primary" value="    OK    " name="Ok"> </input>
     
 
      <input type="Reset"  class="btn btn-primary" value=" Reset " name="Reset"> </input>
- 
+	    </div>
+	</div>
+	</div>
   
     </form>
   <div id="footer"> 
