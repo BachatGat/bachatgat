@@ -177,11 +177,11 @@ include('session.php');
      </div>
     
 
-     <input type="submit" value="View Account Details" name="View Account"> </input>
-     <input type="submit" value="    OK    " name="Ok"> </input>
+     <input type="submit" class="btn btn-primary" value="View Account Details" name="View Account"> </input>
+     <input type="submit" class="btn btn-primary" value="    OK    " name="Ok"> </input>
     
 
-     <input type="Reset" value=" Reset " name="Reset"> </input>
+     <input type="Reset"  class="btn btn-primary" value=" Reset " name="Reset"> </input>
  
   
     </form>
